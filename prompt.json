@@ -1,0 +1,31 @@
+{
+    "data" : " Given a DB information with the following schema given in points:
+                1. order (id, created_at, orderCrn, orderStatus, billAmount)
+                2. product (id, orderCrn, productCode, productStatus, quantity)
+                4. product_customisation(id, productCode, customisationCode, quantity)
+                3. customer (id, orderCrn, name, phoneNumber, paymentMode)
+
+                The DB needs to be designed in MySql with data to be dumped in MongoDB.
+
+                Use Springboot as a framework for Backend application.
+
+                Use React Native to build a mobile Frontend application for Android OS.
+            ",
+    "task" : "
+                We are trying to build a Order-Management System (OMS) for a pizza joint where people can come and order products (different pizzas) with various customisation (toppings such as cheese, pepper, onions, etc.)
+
+                Following tasks need to be completed.
+                1. All MySql queries for table-creation with proper indexes for fast quering.
+                2. Entire MySql system architecture in document format to be followed by MySql Administrator.
+                3. How to dumb Data to MongoDb for backup or some other method can be used for this activity.
+                4. Entire SpringBoot application setup in document format along with the entire source code including all the layers in SpringBoot Framework like (Controller, Service and Repository). Try to make the code as reusable as possible.
+                5. Entire React Native application setup in document format along with entire source code including (HTML, CSS and JavaScript)
+                6. Entire document to host the application on AWS and how to deploy and build the android application. 
+            ",
+    "language" : "Java, React-Native, MySQL",
+}
+
+
+
+
+
